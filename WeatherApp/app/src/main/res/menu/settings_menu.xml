@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemLang"
+        android:title="Language">
+        <menu>
+            <item
+                android:id="@+id/itemEng"
+                android:title="English">
+            </item>
+
+            <item
+                android:id="@+id/itemFrc"
+                android:title="French">
+            </item>
+
+            <item
+                android:id="@+id/itemSpan"
+                android:title="Spanish">
+            </item>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/itemTemp"
+        android:title="Temperature">
+
+        <menu>
+            <item
+                android:id="@+id/itemFahr"
+                android:title="Fahrenheit">
+            </item>
+
+            <item
+                android:id="@+id/itemCel"
+                android:title="Celsius">
+            </item>
+
+            <item
+                android:id="@+id/itemKel"
+                android:title="Kelvin">
+            </item>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/itemSaved"
+        android:title="Saved">
+
+        <menu></menu>
+
+    </item>
+</menu>
